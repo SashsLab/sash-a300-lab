@@ -1,4 +1,7 @@
 #include <stdint.h>
+#include <stdbool.h>
+
+#include "efm32.h"
 #include "em_device.h"
 #include "em_chip.h"
 #include "em_emu.h"
@@ -6,6 +9,12 @@
 #include "em_gpio.h"
 #include "em_usart.h"
 #include "bsp.h"
+#include "em_rtc.h"
+/* LCD support  */
+
+#include "segmentlcd.h"
+#include "lcdtest.h"
+#include "trace.h"
 
 
 /* Function prototypes */
@@ -22,6 +31,10 @@ const char     welcomeString[]  = "Energy Micro RS-232 - Please press a key\n";
 const char     overflowString[] = "\n---RX OVERFLOW---\n";
 const uint32_t welLen           = sizeof(welcomeString) - 1;
 const uint32_t ofsLen           = sizeof(overflowString) - 1;
+
+/* Define Variables */
+unsigned int Rfid_key;
+
 
 /* Define termination character */
 #define TERMINATION_CHAR    '.'
@@ -61,6 +74,16 @@ int main(void)
   /* Initialize UART peripheral */
   uartSetup( );
 
+  /* If first word of user data page is non-zero, enable eA Profiler trace */
+  TRACE_ProfilerSetup();
+
+  /* Enable LCD without voltage boost */
+  SegmentLCD_Init(false);
+
+  /* Initialize RTC */
+  //RTC_Setup(cmuSelect_LFRCO);
+
+  // used for DK board initialization
   /* Initialize Development Kit in EBI mode */
   //BSP_Init(BSP_INIT_DEFAULT);
 
@@ -72,7 +95,7 @@ int main(void)
 
 
   /* Write welcome message to UART */
-  uartPutData((uint8_t*) welcomeString, welLen);
+  //uartPutData((uint8_t*) welcomeString, welLen);
 
   /*  Eternal while loop
    *  CPU will sleep during Rx and Tx. When a byte is transmitted, an interrupt
@@ -83,7 +106,12 @@ int main(void)
    *  data in rxBuf is copied to txBuf and echoed back on the UART */
   while (1)
   {
-    /* Wait in EM1 while UART transmits */
+	/* Desplay data read from MIFARE card reader */
+	Rfid_key = "DEAD";
+	RxBufferDisply(Rfid_key);
+
+
+	/* Wait in EM1 while UART transmits */
     EMU_EnterEM1();
 
     /* Check if RX buffer has overflowed */

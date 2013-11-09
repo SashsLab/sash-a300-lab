@@ -54,6 +54,9 @@ void EM4Sleep(void);
 /* Main test iteration routine */
 void Test(void);
 
+/* LCD Test Routine, shows various text and patternse */
+void RxBufferDisply(unsigned int A);
+
 #ifdef __cplusplus
 }
 #endif
