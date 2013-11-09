@@ -95,7 +95,7 @@ int main(void)
 
 
   /* Write welcome message to UART */
-  //uartPutData((uint8_t*) welcomeString, welLen);
+  uartPutData((uint8_t*) welcomeString, welLen);
 
   /*  Eternal while loop
    *  CPU will sleep during Rx and Tx. When a byte is transmitted, an interrupt
@@ -110,7 +110,7 @@ int main(void)
 	Rfid_key = "DEAD";
 	RxBufferDisply(Rfid_key);
 
-
+	//Test();
 	/* Wait in EM1 while UART transmits */
     EMU_EnterEM1();
 

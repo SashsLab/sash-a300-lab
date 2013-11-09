@@ -62,7 +62,7 @@ static void DelayCB(void)
  * @param rtcPrescale
  *  RTC prescaler
  ******************************************************************************/
-void RTCDRV_Setup(CMU_Select_TypeDef lfaClockSrc, CMU_ClkDiv_TypeDef rtcPrescale)
+void RTCDRV_Setup(CMU_Select_TypeDef osc)
 {
   RTC_Init_TypeDef init;
 
@@ -71,11 +71,11 @@ void RTCDRV_Setup(CMU_Select_TypeDef lfaClockSrc, CMU_ClkDiv_TypeDef rtcPrescale
   /* Ensure LE modules are accessible */
   CMU_ClockEnable(cmuClock_CORELE, true);
 
-  /* Enable LFACLK in CMU (will also enable oscillator if not enabled) */
-  CMU_ClockSelectSet(cmuClock_LFA, lfaClockSrc);
+  /* Enable osc as LFACLK in CMU (will also enable oscillator if not enabled) */
+  CMU_ClockSelectSet(cmuClock_LFA, osc);
 
-  /* Use the prescaler to reduce power consumption. */
-  CMU_ClockDivSet(cmuClock_RTC, rtcPrescale);
+  /* Use a 32 division prescaler to reduce power consumption. */
+  CMU_ClockDivSet(cmuClock_RTC, cmuClkDiv_32);
 
   rtcFreq = CMU_ClockFreqGet(cmuClock_RTC);
 
@@ -94,6 +94,7 @@ void RTCDRV_Setup(CMU_Select_TypeDef lfaClockSrc, CMU_ClkDiv_TypeDef rtcPrescale
   NVIC_ClearPendingIRQ(RTC_IRQn);
   NVIC_EnableIRQ(RTC_IRQn);
 }
+
 
 /***************************************************************************//**
  * @brief RTC delay function
@@ -150,7 +151,7 @@ void RTCDRV_Trigger(uint32_t msec, void (*cb)(void))
   if (!rtcInitialized)
   {
     /* Default to LFRCO as clock source and prescale by 32. */
-    RTCDRV_Setup(cmuSelect_LFRCO, cmuClkDiv_32);
+    RTCDRV_Setup(cmuSelect_LFRCO);
   }
 
   /* Register callback */

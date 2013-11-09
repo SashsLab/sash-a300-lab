@@ -2,7 +2,7 @@
  * @file
  * @brief VDD Voltage Check, using Voltage Comparator API
  * @author Energy Micro AS
- * @version 1.0.0
+ * @version 1.0.1
  ******************************************************************************
  * @section License
  * <b>(C) Copyright 2012 Energy Micro AS, http://www.energymicro.com</b>
@@ -41,7 +41,7 @@
 /**************************************************************************//**
  * @brief VCMP initialization routine
  *****************************************************************************/
-void VDDCHECK_Init(void)
+void VddCheckInit(void)
 {
   /* Enable LE peripherals */
   CMU_ClockEnable(cmuClock_CORELE, true);
@@ -53,7 +53,7 @@ void VDDCHECK_Init(void)
 /**************************************************************************//**
  * @brief VCMP deinitialization routine
  *****************************************************************************/
-void VDDCHECK_Disable(void)
+void VddCheckDisable(void)
 {
   /* Disable VCMP */
   VCMP_Disable();
@@ -70,7 +70,7 @@ void VDDCHECK_Disable(void)
  * @return
  *        Returns true if voltage is lower, false otherwise
  *****************************************************************************/
-bool VDDCHECK_LowVoltage(float vdd)
+bool VddCheckLowVoltage(float vdd)
 {
   VCMP_Init_TypeDef vcmp = VCMP_INIT_DEFAULT;
 
