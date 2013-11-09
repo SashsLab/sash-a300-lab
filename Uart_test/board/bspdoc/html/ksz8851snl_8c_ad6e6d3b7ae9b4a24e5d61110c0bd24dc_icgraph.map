@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__ksz8851snl.html#ga414381cd961a77b97b9e17970ba43e7a" title="Initialize the registers of the ethernet controller." alt="" coords="317,5,435,32"/>
+<area shape="rect" id="node5" href="$group__ksz8851snl.html#ga724ea000fa4b7647888f74c72789a2c7" title="Performs the initialisation of the transmission of a long raw frame over the network..." alt="" coords="267,56,485,83"/>
+<area shape="rect" id="node7" href="$ksz8851snl_8c.html#a92d3dd835f6bf9055f25702d288adbe6" title="Realease the current frame if it is inconsistent." alt="" coords="254,107,498,133"/>
+<area shape="rect" id="node11" href="$group__ksz8851snl.html#ga8329c1bba6f93078d9b91097b8e74ec6" title="Performs the actual transmit of a raw frame over the network." alt="" coords="311,157,441,184"/>
+<area shape="rect" id="node9" href="$group__ksz8851snl.html#ga92d5dacd3df2c5ae005d3b13b2680b4d" title="Performs the actual receive of a raw frame over the network." alt="" coords="547,107,693,133"/>
+</map>

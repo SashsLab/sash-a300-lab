@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__MicroSd.html#ga3d22109c1bb9a743e687abed237c4927" title="Turn off SD card power DK doesn&#39;t support socket power control, only disable..." alt="" coords="227,5,307,32"/>
+<area shape="rect" id="node5" href="$group__MicroSd.html#gab3d77cf3192bade3b1d90529fb303314" title="Select the card and wait ready." alt="" coords="123,49,178,76"/>
+<area shape="rect" id="node8" href="$group__MicroSd.html#ga883390179e2267a0c771f911c1497ee0" title="Send a command packet to MMC." alt="" coords="227,87,307,113"/>
+</map>

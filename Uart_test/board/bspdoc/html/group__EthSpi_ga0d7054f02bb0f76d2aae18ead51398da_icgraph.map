@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__ksz8851snl.html#ga92d5dacd3df2c5ae005d3b13b2680b4d" title="Performs the actual receive of a raw frame over the network." alt="" coords="226,5,371,32"/>
+<area shape="rect" id="node5" href="$group__ksz8851snl.html#ga8329c1bba6f93078d9b91097b8e74ec6" title="Performs the actual transmit of a raw frame over the network." alt="" coords="233,56,364,83"/>
+<area shape="rect" id="node7" href="$group__ksz8851snl.html#gadc028066e15f60be50061cec4b9cd997" title="Performs the clean up procedures after the transmission of a long raw frame over..." alt="" coords="179,107,418,133"/>
+</map>

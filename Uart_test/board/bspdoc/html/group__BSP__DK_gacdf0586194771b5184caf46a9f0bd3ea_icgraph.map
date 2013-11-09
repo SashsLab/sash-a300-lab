@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__RetargetIo.html#gab455176edfa0f3414d104e5d6d64cc50" title="Intializes TFT serial output." alt="" coords="197,5,339,32"/>
+<area shape="rect" id="node5" href="$group__Tft.html#ga53cad6afec098c05461dd0da9479c0ef" title="TFT initialize or reinitialize to Address Mapped Mode Assumes EBI has been configured..." alt="" coords="187,56,349,83"/>
+<area shape="rect" id="node7" href="$group__Tft.html#gafae3e95323a15ac1b4b6ed6fa3c13e9b" title="TFT initialize or reinitialize Assumes EBI has been configured correctly in BSP_Init(BSP_INIT_DK_EBI..." alt="" coords="217,107,319,133"/>
+</map>

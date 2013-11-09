@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__ksz8851snl.html#gae08002b752cd0a410e46bd5b2f77807a" title="Checks for any interrrupts and if found, clears their status and prepair for interrupt..." alt="" coords="235,5,410,32"/>
+<area shape="rect" id="node5" href="$group__ksz8851snl.html#gacadee7e36e356e75f01cabc3cd32be59" title="Returns the size of the currently received frame." alt="" coords="229,56,416,83"/>
+<area shape="rect" id="node7" href="$group__ksz8851snl.html#ga414381cd961a77b97b9e17970ba43e7a" title="Initialize the registers of the ethernet controller." alt="" coords="263,107,382,133"/>
+<area shape="rect" id="node9" href="$group__ksz8851snl.html#ga724ea000fa4b7647888f74c72789a2c7" title="Performs the initialisation of the transmission of a long raw frame over the network..." alt="" coords="213,157,432,184"/>
+<area shape="rect" id="node11" href="$group__ksz8851snl.html#ga331546fa292db2b848dbddb76eaba7df" title="Dumps the Management Information Base Counters." alt="" coords="221,208,424,235"/>
+<area shape="rect" id="node13" href="$group__ksz8851snl.html#ga92d5dacd3df2c5ae005d3b13b2680b4d" title="Performs the actual receive of a raw frame over the network." alt="" coords="494,284,639,311"/>
+<area shape="rect" id="node15" href="$ksz8851snl_8c.html#a92d3dd835f6bf9055f25702d288adbe6" title="Realease the current frame if it is inconsistent." alt="" coords="201,309,445,336"/>
+<area shape="rect" id="node18" href="$group__ksz8851snl.html#ga8329c1bba6f93078d9b91097b8e74ec6" title="Performs the actual transmit of a raw frame over the network." alt="" coords="257,360,388,387"/>
+<area shape="rect" id="node20" href="$group__ksz8851snl.html#gadc028066e15f60be50061cec4b9cd997" title="Performs the clean up procedures after the transmission of a long raw frame over..." alt="" coords="203,411,442,437"/>
+</map>
