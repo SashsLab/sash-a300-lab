@@ -2,7 +2,7 @@
  * @file
  * @brief Vdd voltage check routines, using VCMP
  * @author Energy Micro AS
- * @version 1.0.0
+ * @version 1.0.1
  ******************************************************************************
  * @section License
  * <b>(C) Copyright 2012 Energy Micro AS, http://www.energymicro.com</b>
@@ -52,9 +52,9 @@
 extern "C" {
 #endif
 
-void VDDCHECK_Init(void);
-void VDDCHECK_Disable(void);
-bool VDDCHECK_LowVoltage(float vdd);
+void VddCheckInit(void);
+void VddCheckDisable(void);
+bool VddCheckLowVoltage(float vdd);
 
 #ifdef __cplusplus
 }

@@ -54,7 +54,7 @@ extern "C" {
 
 void RTCDRV_Delay(uint32_t msec, bool useEM2);
 void RTCDRV_Trigger(uint32_t msec, void (*cb)(void));
-void RTCDRV_Setup(CMU_Select_TypeDef lfaClockSrc, CMU_ClkDiv_TypeDef rtcPrescale);
+void RTC_Setup(CMU_Select_TypeDef osc);
 
 #ifdef __cplusplus
 }
