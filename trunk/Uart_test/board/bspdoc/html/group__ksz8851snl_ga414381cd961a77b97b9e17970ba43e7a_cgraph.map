@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__EthSpi.html#gad514d1a84cda97d53d07cfaae13130eb" title="ETHSPI_Init Initialize SPI interface to Ethernet controller." alt="" coords="229,5,318,32"/>
+<area shape="rect" id="node5" href="$group__EthSpi.html#ga6264b984cc8745fe5d1ce6686e5fedda" title="Read ethernet controller register." alt="" coords="423,56,569,83"/>
+<area shape="rect" id="node11" href="$group__EthSpi.html#ga83a481920a667139f7e5cfba3bc28c2f" title="Write ethernet controller register." alt="" coords="421,107,571,133"/>
+<area shape="rect" id="node15" href="$ksz8851snl_8c.html#ad6e6d3b7ae9b4a24e5d61110c0bd24dc" title="Prints a message with a predetermined exception level Support method used for debugging..." alt="" coords="174,107,373,133"/>
+<area shape="rect" id="node18" href="$group__ksz8851snl.html#gacbdbe4a02c390b610787f7913b6d183c" title="Get the MAC address of the current board." alt="" coords="179,208,368,235"/>
+<area shape="rect" id="node7" href="$ethspi_8c.html#a9ab0b70c98c2e20cef54b5a4ffe3f604" title="Sets/resets the ChipSelect of the SPI." alt="" coords="619,56,770,83"/>
+<area shape="rect" id="node9" href="$ethspi_8c.html#a2bfb5b31be8593f65d939c32d24432ea" title="Performs the actual transfer of a byte." alt="" coords="638,107,751,133"/>
+</map>

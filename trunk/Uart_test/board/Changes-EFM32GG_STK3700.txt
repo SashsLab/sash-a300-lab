@@ -1,0 +1,18 @@
+================ Revision history ============================================
+1.0.2:
+- Added USB PHDC Glucometer example (binary only).
+- Fixed usbdmsd example for Keil toolchain.
+- Fixed userpage example for Keil toolchain.
+- Added rtx_tickless example
+- All examples need new EM_BSP_COMMON package.
+
+1.0.1:
+- Added backup power domain RTC example.
+- Added Micrium uC/OS-II/III examples
+- Energy optimized USB MSC device example.
+- Fixed bug in MPU example
+- Updated examples lcsense and lightsense after bug fixes in LESENSE_AltExConfig.
+- Added Keil RTX RTOS example
+
+1.0.0:
+- Initial revision.

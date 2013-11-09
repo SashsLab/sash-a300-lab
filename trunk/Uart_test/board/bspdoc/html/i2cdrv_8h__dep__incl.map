@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$i2cdrv_8c.html" title="I2C0 poll based driver for master mode operation on DK." alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node5" href="$tempsens_8c.html" title="Temperature sensor driver for DS75 temperature sensor compatible device on the DK..." alt="" coords="193,80,377,107"/>
+<area shape="rect" id="node8" href="$touch_8c.html" title="EFM32GG_DK3750, Touch panel driver." alt="" coords="426,80,587,107"/>
+</map>

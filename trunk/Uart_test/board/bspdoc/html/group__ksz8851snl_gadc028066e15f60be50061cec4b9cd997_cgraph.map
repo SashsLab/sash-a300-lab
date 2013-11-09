@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__EthSpi.html#ga6264b984cc8745fe5d1ce6686e5fedda" title="Read ethernet controller register." alt="" coords="315,107,461,133"/>
+<area shape="rect" id="node9" href="$group__EthSpi.html#ga0d7054f02bb0f76d2aae18ead51398da" title="Stop read/write the ethernet controller FIFO." alt="" coords="326,5,450,32"/>
+<area shape="rect" id="node12" href="$group__EthSpi.html#ga89c3879ab639b3ad71262f9b31f74dfb" title="Continue writing ethernet controller FIFO." alt="" coords="301,157,475,184"/>
+<area shape="rect" id="node15" href="$group__EthSpi.html#ga83a481920a667139f7e5cfba3bc28c2f" title="Write ethernet controller register." alt="" coords="313,56,463,83"/>
+<area shape="rect" id="node19" href="$ksz8851snl_8c.html#a77477ac338cf16f8a8c76426cddafe08" title="Returns the difference in bytes to be DWORD alligned." alt="" coords="294,208,482,235"/>
+<area shape="rect" id="node5" href="$ethspi_8c.html#a9ab0b70c98c2e20cef54b5a4ffe3f604" title="Sets/resets the ChipSelect of the SPI." alt="" coords="531,56,682,83"/>
+<area shape="rect" id="node7" href="$ethspi_8c.html#a2bfb5b31be8593f65d939c32d24432ea" title="Performs the actual transfer of a byte." alt="" coords="550,107,663,133"/>
+</map>
