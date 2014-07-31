@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$eeprom_8c.html#aef96dc2e7cad63b532565057c7f0467c" title="Do acknowledge polling on EEPROM device." alt="" coords="163,5,280,32"/>
+<area shape="rect" id="node5" href="$group__I2c.html#ga3cc77bd077873ca59d995da432dc786d" title="Perform I2C transfer." alt="" coords="329,31,450,57"/>
+</map>

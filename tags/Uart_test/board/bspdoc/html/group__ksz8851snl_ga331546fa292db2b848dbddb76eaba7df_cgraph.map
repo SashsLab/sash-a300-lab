@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__EthSpi.html#ga6264b984cc8745fe5d1ce6686e5fedda" title="Read ethernet controller register." alt="" coords="257,5,404,32"/>
+<area shape="rect" id="node9" href="$group__EthSpi.html#ga83a481920a667139f7e5cfba3bc28c2f" title="Write ethernet controller register." alt="" coords="256,56,405,83"/>
+<area shape="rect" id="node5" href="$ethspi_8c.html#a9ab0b70c98c2e20cef54b5a4ffe3f604" title="Sets/resets the ChipSelect of the SPI." alt="" coords="454,5,605,32"/>
+<area shape="rect" id="node7" href="$ethspi_8c.html#a2bfb5b31be8593f65d939c32d24432ea" title="Performs the actual transfer of a byte." alt="" coords="473,56,586,83"/>
+</map>

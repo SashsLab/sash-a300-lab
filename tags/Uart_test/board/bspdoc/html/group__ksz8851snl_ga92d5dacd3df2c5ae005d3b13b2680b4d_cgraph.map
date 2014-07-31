@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__EthSpi.html#ga00a4bce5dd1c5925ad2ee7f440cf71ce" title="Continue reading ethernet controller FIFO." alt="" coords="508,10,679,37"/>
+<area shape="rect" id="node7" href="$group__EthSpi.html#ga6264b984cc8745fe5d1ce6686e5fedda" title="Read ethernet controller register." alt="" coords="745,125,892,152"/>
+<area shape="rect" id="node12" href="$group__EthSpi.html#gaa0ee08019f1f7e7fa110d51a124adac3" title="Start reading from the ethernet controller FIFO." alt="" coords="741,252,896,278"/>
+<area shape="rect" id="node16" href="$group__EthSpi.html#ga0d7054f02bb0f76d2aae18ead51398da" title="Stop read/write the ethernet controller FIFO." alt="" coords="261,365,385,392"/>
+<area shape="rect" id="node19" href="$group__EthSpi.html#ga83a481920a667139f7e5cfba3bc28c2f" title="Write ethernet controller register." alt="" coords="744,201,893,228"/>
+<area shape="rect" id="node23" href="$ksz8851snl_8c.html#a92d3dd835f6bf9055f25702d288adbe6" title="Realease the current frame if it is inconsistent." alt="" coords="201,188,445,214"/>
+<area shape="rect" id="node5" href="$ethspi_8c.html#a2bfb5b31be8593f65d939c32d24432ea" title="Performs the actual transfer of a byte." alt="" coords="963,164,1077,190"/>
+<area shape="rect" id="node9" href="$ethspi_8c.html#a9ab0b70c98c2e20cef54b5a4ffe3f604" title="Sets/resets the ChipSelect of the SPI." alt="" coords="945,233,1095,260"/>
+<area shape="rect" id="node27" href="$ksz8851snl_8c.html#ad6e6d3b7ae9b4a24e5d61110c0bd24dc" title="Prints a message with a predetermined exception level Support method used for debugging..." alt="" coords="494,162,693,189"/>
+</map>

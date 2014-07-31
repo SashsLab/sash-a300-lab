@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__I2c.html#ga63ceb3b51d8881078803c4b935a6d027" title="Initalize basic I2C master mode driver for use on the DK." alt="" coords="209,5,300,32"/>
+<area shape="rect" id="node5" href="$group__Tft.html#gafae3e95323a15ac1b4b6ed6fa3c13e9b" title="TFT initialize or reinitialize Assumes EBI has been configured correctly in BSP_Init(BSP_INIT_DK_EBI..." alt="" coords="203,56,306,83"/>
+<area shape="rect" id="node7" href="$group__Touch.html#ga7998398248274366ad0d8cc3abc63f35" title="Initialize touch panel driver." alt="" coords="211,107,299,133"/>
+</map>

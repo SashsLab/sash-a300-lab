@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group__EthSpi.html#ga6264b984cc8745fe5d1ce6686e5fedda" title="Read ethernet controller register." alt="" coords="548,5,695,32"/>
+<area shape="rect" id="node9" href="$group__EthSpi.html#ga83a481920a667139f7e5cfba3bc28c2f" title="Write ethernet controller register." alt="" coords="547,56,696,83"/>
+<area shape="rect" id="node13" href="$ksz8851snl_8c.html#ad6e6d3b7ae9b4a24e5d61110c0bd24dc" title="Prints a message with a predetermined exception level Support method used for debugging..." alt="" coords="299,56,498,83"/>
+<area shape="rect" id="node5" href="$ethspi_8c.html#a9ab0b70c98c2e20cef54b5a4ffe3f604" title="Sets/resets the ChipSelect of the SPI." alt="" coords="745,5,895,32"/>
+<area shape="rect" id="node7" href="$ethspi_8c.html#a2bfb5b31be8593f65d939c32d24432ea" title="Performs the actual transfer of a byte." alt="" coords="763,56,877,83"/>
+</map>
